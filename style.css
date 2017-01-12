@@ -92,3 +92,28 @@ img, iframe, object, embed, video {
     height: auto;
     max-width: 100%;
 }
+
+@media all and (max-width: 640px) {
+    .content-main {
+        float: none;
+        width: auto;
+    }
+
+        .last-content-call {
+            float: none;
+            width: auto;
+        }
+    .content-sidebar {
+        clear: both;
+        float: none;
+        width: auto;
+    }
+    
+}
+
+@media all and (max-width: 320px) {
+    .main-nav li {
+        float: none;
+        width: auto;
+    }
+}
